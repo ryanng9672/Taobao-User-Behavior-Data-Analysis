@@ -59,7 +59,7 @@ Note that there are four types of user behaviors, which are:
 - Increase in Sales
 
 # Python
-data_cleaning_part
+- data_cleaning_part
 ```shell
 print("check_taobao_df how may row",taobao_df.shape)
 taobao_df.drop_duplicates()
@@ -70,8 +70,27 @@ print("drop_duplicates to taobao_df",taobao_df.shape)
 ```shell
 taobao_df.isnull().sum()
 ```
-
 ![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/2a7fbef1-e7d7-44dd-a6a1-baed658c28a9)
+
+- set_up_time(hour,week,time)
+```shell
+def to_date(dt):
+    return dt.date()
+
+def to_time(dt):
+    return dt.time()
+
+def getWeek(dt):
+    return weekDict[dt.weekday()]
+
+weekDict = {0: 'Mon', 1: 'Tue', 2: 'Wed', 3: 'Thur', 4: 'Fri', 5: 'Sat', 6: 'Sun'}
+taobao_df['date'] = taobao_df['timestamp'].apply(to_date)
+taobao_df['time'] = taobao_df['timestamp'].apply(to_time)
+taobao_df['week'] = taobao_df['timestamp'].apply(getWeek)
+```
+![螢幕擷取畫面 2024-04-23 025731](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/1687ca21-e08c-466b-bb81-f1af3f694a15)
+
+
 
 
 # Power_bi
