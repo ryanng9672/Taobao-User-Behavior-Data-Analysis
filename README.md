@@ -100,9 +100,9 @@ filtered_taobao_df = taobao_df[(taobao_df['date'] >= start_date) & (taobao_df['d
 ```
 ![螢幕擷取畫面 2024-04-23 025935](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/9237f3a5-9137-4f41-bdff-15d19cc689e5)
 
-- data overview(In_python)
-- Calculating Daily Page Views, Unique Visitors, and Pages per Visitor for Taobao Data
+- **data overview(In_python)**
 ```shell
+#Calculating Daily Page Views, Unique Visitors, and Pages per Visitor for Taobao Data
 pv_data = filtered_taobao_df[filtered_taobao_df['behavior_type'] == 'pv']
 
 pv_uv_puv = pv_data.groupby('date').agg(
