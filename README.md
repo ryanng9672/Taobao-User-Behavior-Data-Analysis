@@ -91,7 +91,7 @@ taobao_df['week'] = taobao_df['timestamp'].apply(getWeek)
 ![螢幕擷取畫面 2024-04-23 030131](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/4463d8e8-6e73-46e9-ab23-f00181ad5250)
 
 - check the time range
-```sell
+```shell
 taobao_df['date'] = pd.to_datetime(taobao_df['date'])
 start_date = pd.to_datetime('2017-11-25')
 end_date = pd.to_datetime('2017-12-03')
@@ -99,6 +99,21 @@ end_date = pd.to_datetime('2017-12-03')
 filtered_taobao_df = taobao_df[(taobao_df['date'] >= start_date) & (taobao_df['date'] <= end_date)]
 ```
 ![螢幕擷取畫面 2024-04-23 025935](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/9237f3a5-9137-4f41-bdff-15d19cc689e5)
+
+- data overview(In_python)
+- Calculating Daily Page Views, Unique Visitors, and Pages per Visitor for Taobao Data
+```shell
+pv_data = filtered_taobao_df[filtered_taobao_df['behavior_type'] == 'pv']
+
+pv_uv_puv = pv_data.groupby('date').agg(
+    pv=('user_id', 'count'),  
+    uv=('user_id', pd.Series.nunique), 
+).reset_index()
+
+pv_uv_puv['puv'] = round(pv_uv_puv['pv'] / pv_uv_puv['uv'], 1)
+```
+![螢幕擷取畫面 2024-04-23 030633](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/4f571eab-a1b5-4185-ae2b-8f0a94a35dfc)
+
 
 
 
