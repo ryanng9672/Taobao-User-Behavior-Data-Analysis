@@ -1,7 +1,14 @@
 # Taobao-User-Behavior-Data-Analysis
 ![___________________23-4-2024_22131_zizhunguo com](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/f3753e7a-4251-4f48-9d58-794ad22a0e3c)
 
-# Project Introduction
+# Table of Content
+* [Project_Introduction](#Project_Introduction)
+* [Analysis_Purpose](Analysis_Purpose)
+* [Python](#Python)
+* [Power_bi](#Power_bi)
+* [WebsiteRelated](#WebsiteRelated)
+
+# Project_Introduction
 * **Overview** 
 
 UserBehavior is a dataset offered by Alibaba, containing user behavior records from Taobao. It serves as a valuable resource for researching implicit feedback recommendation problems. The dataset spans from November 25, 2017, to December 3, 2017, and includes 1,001,506 behavior samples from approximately 987,994 distinct users, 4,162,024 unique products, and 3,623 different product categories. The behaviors captured include clicks, purchases, additions to cart.
@@ -23,7 +30,7 @@ Note that there are four types of user behaviors, which are:
 
 ![螢幕擷取畫面 2024-04-23 022615](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/d77b6704-c1d2-4539-a334-c5c47a69776c)
 
-# Analysis Purpose
+# Analysis_Purpose
 - Optimize implicit feedback recommendation systems
 
 ![tabo](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/51fed9f4-3575-4437-8582-25b60329dacf)
@@ -35,7 +42,7 @@ Note that there are four types of user behaviors, which are:
 
 ## 3. Analysis Tools
 - Python
-- Power bi
+- Power_bi
 
 ## 4. Implementation Steps
 - Data Preparation and Cleaning
@@ -49,6 +56,7 @@ Note that there are four types of user behaviors, which are:
 - Enhanced User Experience
 - Increase in Sales
 
+# Python
 
 
 
