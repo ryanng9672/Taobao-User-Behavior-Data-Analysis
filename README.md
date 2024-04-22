@@ -88,8 +88,17 @@ taobao_df['date'] = taobao_df['timestamp'].apply(to_date)
 taobao_df['time'] = taobao_df['timestamp'].apply(to_time)
 taobao_df['week'] = taobao_df['timestamp'].apply(getWeek)
 ```
-![螢幕擷取畫面 2024-04-23 025731](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/1687ca21-e08c-466b-bb81-f1af3f694a15)
+![螢幕擷取畫面 2024-04-23 030131](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/4463d8e8-6e73-46e9-ab23-f00181ad5250)
 
+- check the time range
+```sell
+taobao_df['date'] = pd.to_datetime(taobao_df['date'])
+start_date = pd.to_datetime('2017-11-25')
+end_date = pd.to_datetime('2017-12-03')
+
+filtered_taobao_df = taobao_df[(taobao_df['date'] >= start_date) & (taobao_df['date'] <= end_date)]
+```
+![螢幕擷取畫面 2024-04-23 025935](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/9237f3a5-9137-4f41-bdff-15d19cc689e5)
 
 
 
