@@ -10,6 +10,19 @@ For my analysis using Python and Power BI, this dataset will provide valuable in
 
 
 * **Introduction** [data set link](https://tianchi.aliyun.com/dataset/649)
+  ![螢幕擷取畫面 2024-04-23 021757](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/e9f8bc0d-2ff5-4712-9d05-c23544bce467)
+
+The dataset includes all activities of approximately one million random users who were active between November 25, 2017, and December 3, 2017. The activities include clicking, purchasing, adding to cart, and liking. The organization of the dataset is similar to MovieLens-20M, where each row represents a user action consisting of User ID, Item ID, Category ID, Behavior Type, and Timestamp, separated by commas. Detailed descriptions of each column in the dataset are as follows:
+
+![螢幕擷取畫面 2024-04-23 022607](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/38326290-cdef-424a-bb45-a66011bf9e11)
+
+
+
+Note that there are four types of user behaviors, which are:
+
+![螢幕擷取畫面 2024-04-23 022615](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/d77b6704-c1d2-4539-a334-c5c47a69776c)
+
+
 
 
 
