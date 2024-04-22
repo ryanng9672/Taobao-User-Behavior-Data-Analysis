@@ -30,7 +30,9 @@ Note that there are four types of user behaviors, which are:
 
 ![螢幕擷取畫面 2024-04-23 022615](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/d77b6704-c1d2-4539-a334-c5c47a69776c)
 
+
 # Analysis_Purpose
+
 - Optimize implicit feedback recommendation systems
 
 ![tabo](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/51fed9f4-3575-4437-8582-25b60329dacf)
@@ -57,6 +59,13 @@ Note that there are four types of user behaviors, which are:
 - Increase in Sales
 
 # Python
+data_cleaning(drop_duplicates)
+```shell
+print("check_taobao_df how may row",taobao_df.shape)
+taobao_df.drop_duplicates()
+print("drop_duplicates to taobao_df",taobao_df.shape)
+```
+![螢幕擷取畫面 2024-04-23 024822](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/24670744-d313-4c46-8d32-beb4c51606c1)
 
 # Power_bi
 
