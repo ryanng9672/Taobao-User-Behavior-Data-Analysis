@@ -23,7 +23,7 @@ Note that there are four types of user behaviors, which are:
 
 ![螢幕擷取畫面 2024-04-23 022615](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/d77b6704-c1d2-4539-a334-c5c47a69776c)
 
-# Analysis Purpose (mine map)
+# Analysis Purpose
 - Optimize implicit feedback recommendation systems
 
 ![tabo](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/51fed9f4-3575-4437-8582-25b60329dacf)
