@@ -59,13 +59,20 @@ Note that there are four types of user behaviors, which are:
 - Increase in Sales
 
 # Python
-data_cleaning(drop_duplicates)
+data_cleaning_part
 ```shell
 print("check_taobao_df how may row",taobao_df.shape)
 taobao_df.drop_duplicates()
 print("drop_duplicates to taobao_df",taobao_df.shape)
 ```
 ![螢幕擷取畫面 2024-04-23 024822](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/24670744-d313-4c46-8d32-beb4c51606c1)
+
+```shell
+taobao_df.isnull().sum()
+```
+
+![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/2a7fbef1-e7d7-44dd-a6a1-baed658c28a9)
+
 
 # Power_bi
 
