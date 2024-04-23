@@ -241,6 +241,7 @@ def classify_user(row):
 rfm['class'] = rfm.apply(classify_user, axis=1)
 ```
 ![螢幕擷取畫面 2024-04-23 092853](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/3e774954-6e82-4481-9d69-3ba0fcab21ea)
+![rfm pie](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/6b72e38a-78f9-412d-8ccd-baa65c7f27ab)
 
 
 
