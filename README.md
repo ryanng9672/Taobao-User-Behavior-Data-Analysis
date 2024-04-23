@@ -115,6 +115,7 @@ pv_uv_puv['puv'] = round(pv_uv_puv['pv'] / pv_uv_puv['uv'], 1)
 ![螢幕擷取畫面 2024-04-23 030633](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/4f571eab-a1b5-4185-ae2b-8f0a94a35dfc)
 
 ```shell
+#Daily PV and UV 
 import matplotlib.pyplot as plt
 
 pv_uv_puv['date'] = pd.to_datetime(pv_uv_puv['date'])
