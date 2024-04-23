@@ -190,6 +190,12 @@ df_sample = taobao_df.sample(n=10000000,random_state=42)
 
 ![螢幕擷取畫面 2024-04-23 091831](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/90b465c1-d6fc-41ec-acde-ca0383e0b695)
 
+```shell
+result in rfm model
+```
+![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/f65d2fec-dc37-4355-b782-ee8a71c6edd7)
+
+
 
 
 
