@@ -332,9 +332,9 @@ although there are 88 users who only visited once, this number is very small com
 
 - The results show the number of users in each category, with Bronze having the most and Gold the least. This classification indicates varying levels of customer loyalty and engagement, with Diamond Members likely being the most valuable customer group due to their active purchase behaviors.
 
+- **Conversion Rates Analysis**
 ![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/46990317-b361-427a-b7c4-97d436f43316)
 
-- Conversion Rates Analysis
 - PV TO CAR&FAV Conversion Rate: 9.39%
 Industry Standard: For e-commerce websites, the average conversion rate for adding items to the shopping cart typically ranges between 5% to 10%. Therefore, a rate of 9.39% can be considered relatively good, especially as it is near or slightly above the industry average.
 Analysis: If this figure is below your industry average or below that of your competitors, measures may need to be taken to improve this ratio. If the figure is already high, the focus may shift to how to convert these potential buyers into actual purchasers.
