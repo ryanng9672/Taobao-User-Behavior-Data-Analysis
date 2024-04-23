@@ -254,7 +254,27 @@ rfm['class'] = rfm.apply(classify_user, axis=1)
 - **clicks and active users are mainly concentrated in two time periods, 11:00-17:00 and 20:00-00:00. while the highest BUY crowd is 9:00-1700 the total number of visits in these two time periods is significantly higher than any other time periods. These two time slots are centered on 14:00 and 21:00, with 21:00 being the active peak of the day.**
 - **Weekend sales compared to normal weekday**
 - **User behavior includes clicking, put into the shopping cart, collection and purchase, clicking accounted for 90% of the total number of behavior, and put into the shopping cart accounted for only 8%, and finally the actual purchase accounted for only 2%, the pinch point in the put into the cart and fav of this link, there may be a reason is that the user spends a lot of time looking for the right product for this can be optimized for the e-commerce platform's filtering function, so that the user can be more easily to find the right product.**
-- 
+  
+- Explanation of Conversion Rates
+- PV TO CAR&FAV Conversion Rate: 9.39%
+This conversion rate indicates the percentage of all page views (PV) that result in users adding products to their shopping cart or favorites list (CAR&FAV), which is 9.39%.
+A lower conversion rate may suggest that although many users visit the website, only a small fraction are interested enough in the products to consider a future purchase or to save the product details.
+
+- CAR&FAV TO BUY Conversion Rate: 23.94%
+This conversion rate represents the percentage of instances where products added to the shopping cart or favorites list (CAR&FAV) lead to an actual purchase (BUY), which is 23.94%.
+A higher conversion rate indicates that among users who have shown interest in products and taken some action, a relatively high proportion decide to make the final purchase.
+
+- Significance and Potential Impact
+User Engagement and Purchase Decisions: A low PV to CAR&FAV conversion rate might mean that the presentation of pages or products is not effective enough in engaging users to take further action. This could be due to poor user interface design, insufficient product information, non-competitive pricing, or a lack of sufficient incentives.
+
+- Behavior of High-Intent Buyers: A relatively high CAR&FAV to BUY conversion rate suggests that once users consider purchasing, they often complete the purchase process. This could be due to effective marketing strategies, attractive pricing policies, trust-building measures (such as customer reviews and clear return policies), and an optimized checkout process.
+
+- Recommendations
+Optimize Website and Product Pages: Improve the user interface and provide more detailed product information to increase the conversion from browsing to adding to the shopping cart or favorites.
+Enhance User Engagement: Stimulate users' interest in purchasing through marketing campaigns, coupons, time-limited discounts, and other strategies.
+Simplify the Purchase Process: Ensure the purchasing process is simple and quick, reducing barriers that might lead users to abandon the shopping cart.
+
+By implementing these strategies, it is possible to improve the PV to CAR&FAV conversion rate, while maintaining or enhancing the already relatively high CAR&FAV to BUY conversion rate.
 ![螢幕擷取畫面 2024-04-23 093217](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/1eb64e94-79d0-42ef-83fd-678a581674f2)
 
 - **Conversion Rate &Bounce Rate**
