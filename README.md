@@ -7,6 +7,7 @@
 * [Python](#Python)
 * [RFＭ](#RFＭ)
 * [Power_bi](#Power_bi)
+* For those who prefer to see the analysis outcomes without delving into the coding details, please click on [Data Analysis Results](#data-analysis-results).
 * [WebsiteRelated](#WebsiteRelated)
 
 # Project_Introduction
@@ -262,6 +263,11 @@ rfm['class'] = rfm.apply(classify_user, axis=1)
 
 - **Repeat rate and single purchase**
 ![螢幕擷取畫面 2024-04-23 093349](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/82e1bcb6-5ac9-49da-a0fa-7e6858d7ba55)
+
+
+
+# Data_analysis_Results
+
 
 # WebsiteRelated
 - data set link 
