@@ -114,6 +114,29 @@ pv_uv_puv['puv'] = round(pv_uv_puv['pv'] / pv_uv_puv['uv'], 1)
 ```
 ![螢幕擷取畫面 2024-04-23 030633](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/4f571eab-a1b5-4185-ae2b-8f0a94a35dfc)
 
+```shell
+import matplotlib.pyplot as plt
+
+pv_uv_puv['date'] = pd.to_datetime(pv_uv_puv['date'])
+
+plt.figure(figsize=(10, 6))
+
+plt.plot(pv_uv_puv['date'], pv_uv_puv['pv'], label='PV', marker='o')
+
+plt.plot(pv_uv_puv['date'], pv_uv_puv['uv'], label='UV', marker='o')
+
+plt.title('Daily PV and UV')
+plt.xlabel('Date')
+plt.ylabel('Counts')
+plt.legend()
+plt.grid(True)
+plt.xticks(rotation=45) 
+plt.tight_layout()
+plt.show()
+```
+![output](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/f28e1e03-2fbd-4bc5-97bb-2a1eed65a7d5)
+
+
 
 
 
