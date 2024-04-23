@@ -273,7 +273,6 @@ User Engagement and Purchase Decisions: A low PV to CAR&FAV conversion rate migh
 Optimize Website and Product Pages: Improve the user interface and provide more detailed product information to increase the conversion from browsing to adding to the shopping cart or favorites.
 Enhance User Engagement: Stimulate users' interest in purchasing through marketing campaigns, coupons, time-limited discounts, and other strategies.
 Simplify the Purchase Process: Ensure the purchasing process is simple and quick, reducing barriers that might lead users to abandon the shopping cart.
-
 By implementing these strategies, it is possible to improve the PV to CAR&FAV conversion rate, while maintaining or enhancing the already relatively high CAR&FAV to BUY conversion rate.
 ![螢幕擷取畫面 2024-04-23 093217](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/1eb64e94-79d0-42ef-83fd-678a581674f2)
 
