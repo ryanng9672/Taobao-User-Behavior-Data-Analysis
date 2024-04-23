@@ -307,6 +307,11 @@ The bounce rate is extremely low, nearly zero. This rate indicates that a tiny p
 **Summary**
 although there are 88 users who only visited once, this number is very small compared to the total page views, resulting in an extremely low bounce rate (approximately 0.000000981%). This suggests that the vast majority of page views come from users who visit the website repeatedly, indicating good user retention and engagement. This can be seen as a positive sign of user involvement and return visits to the website or application.
 
+![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/2c8a9892-bf41-4726-b395-71643b30c11c)
+
+- The results show the number of users in each category, with Bronze having the most and Gold the least. This classification indicates varying levels of customer loyalty and engagement, with Diamond Members likely being the most valuable customer group due to their active purchase behaviors.
+
+
 # WebsiteRelated
 - data set link 
 https://tianchi.aliyun.com/dataset/649
