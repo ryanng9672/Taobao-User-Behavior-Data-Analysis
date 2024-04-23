@@ -262,6 +262,7 @@ rfm['class'] = rfm.apply(classify_user, axis=1)
 ![螢幕擷取畫面 2024-04-23 093349](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/82e1bcb6-5ac9-49da-a0fa-7e6858d7ba55)
 
 # WebsiteRelated
+- data set link 
 https://tianchi.aliyun.com/dataset/649
 
 
