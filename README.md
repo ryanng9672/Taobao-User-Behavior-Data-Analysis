@@ -18,8 +18,13 @@ For my analysis using Python and Power BI, this dataset will provide valuable in
 
 
 * **Introduction** [data set link](https://tianchi.aliyun.com/dataset/649)
-  
+
 ![螢幕擷取畫面 2024-04-23 021757](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/e9f8bc0d-2ff5-4712-9d05-c23544bce467)
+
+* **AARRR model**
+
+![aarrr-growth-funnel-model-infographic-template-with-icons-has-5-steps-such-as-acquisition-activation-retention-referral-and-revenue-pirate-metrix-or-pirate-framework-to-measure-growth-and-success-vector](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/5783d81d-54c2-4c41-a144-44c8f6aed8d1)
+
 
 The dataset includes all activities of approximately one million random users who were active between November 25, 2017, and December 3, 2017. The activities include clicking, purchasing, adding to cart, and liking. The organization of the dataset is similar to MovieLens-20M, where each row represents a user action consisting of User ID, Item ID, Category ID, Behavior Type, and Timestamp, separated by commas. Detailed descriptions of each column in the dataset are as follows:
 
