@@ -178,6 +178,8 @@ print("Total_pv:", total_pv)
 print("流失率:", bounce_rate)
 ```
 ![螢幕擷取畫面 2024-04-23 090558](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/2006a702-87b0-457a-83f8-d9887341e406)
+# RFＭ
+
 
 
 
