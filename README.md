@@ -249,6 +249,7 @@ rfm['class'] = rfm.apply(classify_user, axis=1)
 
 
 # Power_bi
+- Guest Behavior
 ![螢幕擷取畫面 2024-04-23 093217](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/1eb64e94-79d0-42ef-83fd-678a581674f2)
 
 
