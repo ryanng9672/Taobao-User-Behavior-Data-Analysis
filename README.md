@@ -268,11 +268,13 @@ rfm['class'] = rfm.apply(classify_user, axis=1)
 
 # Data_analysis_Results
 ![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/213387fa-0acc-4c66-a6dc-4b92e6dc7b78)
+
 **A few things can be seen from the data provided:**
 - Date range: from 11/25/2017 to 12/3/2017.
 - Number of page views (pv): during this period, the number of daily page views ranged from approximately 8.84 million to approximately 12.3 million.
 - Unique visitors (uv): the number of daily unique visitors increased from approximately 686,000 to approximately 939,000 per day.
 - Average page views per unique visitor (puv): this figure was relatively stable, fluctuating between 13.1 and 13.7.
+
 **See data analysis:**
 - User Engagement: The value of puv shows the average number of pages viewed by users during each visit. A number around 13 indicates that users tend to browse multiple pages when visiting Taobao, which - may reflect the attractiveness of the site and user engagement.
 - User Growth: An increase in the number of unique visitors within a given date range, which may be due to specific marketing campaigns, the holiday shopping season or natural growth.
