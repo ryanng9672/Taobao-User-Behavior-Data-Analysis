@@ -7,7 +7,7 @@
 * [Python](#Python)
 * [RFＭ](#RFＭ)
 * [Power_bi](#Power_bi)
-* For those who prefer to see the analysis outcomes without delving into the coding details, please click on [Data_Analysis_Results](#Data_Analysis_Results).
+* [Data_Analysis_Results](#Data_Analysis_Results).For those who prefer to see the analysis outcomes without delving into the coding details, please click here
 * [WebsiteRelated](#WebsiteRelated)
 
 # Project_Introduction
