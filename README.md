@@ -195,6 +195,22 @@ result in rfm model
 ```
 ![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/f65d2fec-dc37-4355-b782-ee8a71c6edd7)
 
+```shell
+#RFM Analysis for Taobao Purchase Data(set up point)
+#because the data set don't have the Monetary ($$$) so i just use the R & F 
+df_purchases = filtered_taobao_df[filtered_taobao_df['behavior_type'] == 'buy']
+
+rfm = df_purchases.groupby('user_id').agg({
+    'timestamp': lambda x: (datetime.now() - x.max()).days,  
+    'user_id': 'count'   
+}).rename(columns={'timestamp': 'recency', 'user_id': 'frequency'})
+
+rfm['recency_score'] = pd.qcut(rfm['recency'], 5, labels=[5, 4, 3, 2, 1])  
+rfm['frequency_score'] = pd.qcut(rfm['frequency'].rank(method='first'), 5, labels=[1, 2, 3, 4, 5])
+```
+![螢幕擷取畫面 2024-04-23 092237](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/8b0c3873-1c2f-408e-b9aa-f433310bbae2)
+
+
 
 
 
