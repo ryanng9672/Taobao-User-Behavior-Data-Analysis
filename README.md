@@ -186,6 +186,10 @@ df_sample = taobao_df.sample(n=10000000,random_state=42)
 ```
 ![螢幕擷取畫面 2024-04-23 091708](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/b8b53bf6-c3a6-48b1-8e8e-d894ec248794)
 
+- model set up!!!
+![螢幕擷取畫面 2024-04-23 091831](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/90b465c1-d6fc-41ec-acde-ca0383e0b695)
+
+
 
 
 
