@@ -137,6 +137,29 @@ plt.show()
 ```
 ![output](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/f28e1e03-2fbd-4bc5-97bb-2a1eed65a7d5)
 
+```shell
+#Taobao User Retention Calculation
+filtered_taobao_df['dates'] = pd.to_datetime(filtered_taobao_df['date'])
+
+user_dates = filtered_taobao_df.groupby(['user_id', 'dates']).size().reset_index(name='counts')
+
+user_dates = user_dates.merge(user_dates, on='user_id', suffixes=('_a', '_b'))
+
+user_dates['date_diff'] = (user_dates['dates_b'] - user_dates['dates_a']).dt.days
+
+next_day = user_dates[user_dates['date_diff'] == 1].groupby('dates_a').size()
+same_day = user_dates[user_dates['date_diff'] == 0].groupby('dates_a').size()
+
+retention_rate = (next_day / same_day).reset_index()
+retention_rate.columns = ['dates', 'retention_1']
+
+retention_rate['dates'] = retention_rate['dates'].dt.strftime('%Y-%m-%d')
+
+print(retention_rate)
+```
+![螢幕擷取畫面 2024-04-23 090324](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/09221d25-b849-4409-9bea-84f2480e543d)
+
+
 
 
 
