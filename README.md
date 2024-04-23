@@ -6,7 +6,7 @@
 * [Analysis_Purpose](#Analysis_Purpose)
 * [Python](#Python)
 * [RFＭ](#RFＭ)
-* [Power_bi](#Power_bi)
+* [Power_bi](#Power_bi).There will be diagrams to explain
 * [Data_Analysis_Results](#Data_Analysis_Results).For those who prefer to see the analysis outcomes without delving into the coding details, please click here
 * [WebsiteRelated](#WebsiteRelated)
 
