@@ -210,6 +210,37 @@ rfm['frequency_score'] = pd.qcut(rfm['frequency'].rank(method='first'), 5, label
 ```
 ![螢幕擷取畫面 2024-04-23 092237](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/8b0c3873-1c2f-408e-b9aa-f433310bbae2)
 
+```shell
+#Classification of Taobao Users Based on RFM Scores
+def calculate_fscore(x):
+    if x >= 100:
+        return 5
+    elif 50 <= x < 100:
+        return 4
+    elif 20 <= x < 50:
+        return 3
+    elif 5 <= x < 20:
+        return 2
+    else:
+        return 1
+
+rfm['fscore'] = rfm['frequency'].apply(calculate_fscore)
+
+rfm['rscore'] = pd.qcut(rfm['recency'], 5, labels=[5, 4, 3, 2, 1]).astype(int)
+
+def classify_user(row):
+    if row['fscore'] <= 2 and 1 <= row['rscore'] <= 2:
+        return 'Bronze'
+    elif row['fscore'] <= 3 and 2 <= row['rscore'] <= 3:
+        return 'Silver'
+    elif row['fscore'] <= 4 and 3 <= row['rscore'] <= 4:
+        return 'Gold'
+    else:
+        return 'Diamond Member'
+
+rfm['class'] = rfm.apply(classify_user, axis=1)
+```
+![螢幕擷取畫面 2024-04-23 092853](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/3e774954-6e82-4481-9d69-3ba0fcab21ea)
 
 
 
