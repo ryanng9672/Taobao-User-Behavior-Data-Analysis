@@ -180,6 +180,11 @@ print("流失率:", bounce_rate)
 ```
 ![螢幕擷取畫面 2024-04-23 090558](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/2006a702-87b0-457a-83f8-d9887341e406)
 # RFＭ
+```shell
+#In RFM model we use the 10000000 to testing
+df_sample = taobao_df.sample(n=10000000,random_state=42)
+```
+![螢幕擷取畫面 2024-04-23 091708](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/b8b53bf6-c3a6-48b1-8e8e-d894ec248794)
 
 
 
