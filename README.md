@@ -280,6 +280,18 @@ rfm['class'] = rfm.apply(classify_user, axis=1)
 - User Growth: An increase in the number of unique visitors within a given date range, which may be due to specific marketing campaigns, the holiday shopping season or natural growth.
 - Traffic Fluctuations: Especially during the first weekend of December (December 2 and 3), pv and uv values increased significantly, which could be due to increased traffic from weekend events or promotions and possibly an early warm-up for the Double-December event.
 
+![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/518073d8-a92d-4964-9811-f2516ca18328)
+
+**The resulting dataframe retention_rate displays daily retention rates:**
+- Dates: Specific days in late November and early December 2017.
+- retention_1: The ratio of users who returned the following day to those who visited on the same day. Values close to 1 suggest a higher retention rate.
+
+**From the results:**
+
+- On most days, the retention rates are between 0.777 and 0.796, suggesting that about 77.7% to 79.6% of users who visited the site returned the next day.
+- There is a notable increase on December 1st and 2nd, where the retention rates are much higher (~0.98), possibly indicating a successful marketing campaign or event that drove higher user engagement and return.
+- The NaN value on December 3rd means there were no same-day visits recorded to compare against, or no data for the following day to establish if users returned.
+
 
 # WebsiteRelated
 - data set link 
