@@ -250,9 +250,10 @@ rfm['class'] = rfm.apply(classify_user, axis=1)
 
 # Power_bi
 - **Guest Behavior**
-![螢幕擷取畫面 2024-04-23 093217](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/1eb64e94-79d0-42ef-83fd-678a581674f2)
-- **clicks and active users are mainly concentrated in two time periods, 11:00~17:00 and 20:00~00:00. while the highest BUY crowd is 9:00-1700 the total number of visits in these two time periods is significantly higher than any other time periods. These two time slots are centered on 14:00 and 21:00, with 21:00 being the active peak of the day.**
+- **clicks and active users are mainly concentrated in two time periods, 11:00-17:00 and 20:00-00:00. while the highest BUY crowd is 9:00-1700 the total number of visits in these two time periods is significantly higher than any other time periods. These two time slots are centered on 14:00 and 21:00, with 21:00 being the active peak of the day.**
 - **Weekend sales compared to normal weekday**
+![螢幕擷取畫面 2024-04-23 093217](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/1eb64e94-79d0-42ef-83fd-678a581674f2)
+
 - **Conversion Rate &Bounce Rate**
 ![螢幕擷取畫面 2024-04-23 093317](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/d3b8a496-c199-46a3-b039-eba930660b73)
 
