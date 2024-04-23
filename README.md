@@ -159,6 +159,25 @@ print(retention_rate)
 ```
 ![螢幕擷取畫面 2024-04-23 090324](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/09221d25-b849-4409-9bea-84f2480e543d)
 
+```shell
+#Bounce users & Bounce Rate
+user_behavior_count = filtered_taobao_df.groupby('user_id').size()
+
+# find one time users
+bounce_users = user_behavior_count[user_behavior_count == 1].count()
+
+# check the total_pv
+total_pv = pv_uv_puv['pv'].sum()
+
+# check the % of  bounce users
+bounce_rate = bounce_users / total_pv
+
+# 输出结果
+print("流失用户:", bounce_users)
+print("Total_pv:", total_pv)
+print("流失率:", bounce_rate)
+```
+![螢幕擷取畫面 2024-04-23 090558](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/2006a702-87b0-457a-83f8-d9887341e406)
 
 
 
