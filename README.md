@@ -8,7 +8,7 @@
 * [RFＭ](#RFＭ)
 * [Power_bi](#Power_bi).There will be diagrams to explain
 * [Data_Analysis_Results](#Data_Analysis_Results).For those who prefer to see the analysis outcomes without delving into the coding details, please click here
-* [Recommendation](#Recommendation)
+* [Recommendations_Based_on_Taobao_User_Behavior_Data_Analysis](#Recommendations_Based_on_Taobao_User_Behavior_Data_Analysis)
 * [WebsiteRelated](#WebsiteRelated)
 
 # Project_Introduction
@@ -418,12 +418,11 @@ Even though these conversion rates look good, there is always room for improveme
   
 - **Adjustment in marketing strategies: Businesses might need to increase repeat purchase rates through improving product quality, enhancing customer loyalty programs, upgrading service quality, or innovating marketing strategies.**
 
-# Recommendations Based on Taobao User Behavior Data Analysis
-- Overview of Findings
-From the data analysis of Taobao's user behavior, several points are evident:
-User Engagement: High page views per visitor indicate strong site engagement.
-Traffic and Retention: Increases in unique visitors and high retention rates suggest effective user attraction and retention during the analyzed period.
-Conversion Rates: Both PV to CAR&FAV and CAR&FAV to BUY conversion rates are within or above industry standards, indicating a healthy purchasing funnel.
+# Recommendations_Based_on_Taobao_User_Behavior_Data_Analysis
+- **Overview of Findings**
+- **User Engagement: High page views per visitor indicate strong site engagement.**
+- **Traffic and Retention: Increases in unique visitors and high retention rates suggest effective user attraction and retention during the analyzed period.**
+- **Conversion Rates: Both PV to CAR&FAV and CAR&FAV to BUY conversion rates are within or above industry standards, indicating a healthy purchasing funnel.**
 
 Strategic Recommendations
 Enhance User Experience and Checkout Process
