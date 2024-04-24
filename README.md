@@ -275,10 +275,10 @@ rfm['class'] = rfm.apply(classify_user, axis=1)
 Enhance User Engagement: Stimulate users' interest in purchasing through marketing campaigns, coupons, time-limited discounts, and other strategies.
 Simplify the Purchase Process: Ensure the purchasing process is simple and quick, reducing barriers that might lead users to abandon the shopping cart.
 By implementing these strategies, it is possible to improve the PV to CAR&FAV conversion rate, while maintaining or enhancing the already relatively high CAR&FAV to BUY conversion rate.**
-![螢幕擷取畫面 2024-04-23 093217](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/1eb64e94-79d0-42ef-83fd-678a581674f2)
+
 
 - **Conversion Rate &Bounce Rate**
-
+![螢幕擷取畫面 2024-04-23 093317](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/d3b8a496-c199-46a3-b039-eba930660b73)
 - **Total Page Views (Totalpv): 89,660,688
  This metric indicates the total number of times that pages on the website have been viewed during the reported period. A high number of page views can suggest high traffic but does not necessarily indicate effective engagement or successful conversions.**
 
@@ -301,7 +301,7 @@ The second most common path, "PV > CART > FAV > BUY," involves users adding prod
 
 - **Decision Time and User Confidence:
 Comparing the two paths, it can be inferred that users who go directly to purchase are likely more confident about their buying decision or feel a sense of urgency. In contrast, those who use the favorites feature may require more information or exhibit more hesitation before committing to the purchase. This could also reflect a preference among certain users to save items for later consideration.**
-![螢幕擷取畫面 2024-04-23 093317](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/d3b8a496-c199-46a3-b039-eba930660b73)
+
 
 - **Are the product categories ranked consistently for views and purchases?**
 ![螢幕擷取畫面 2024-04-23 093331](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/677de169-b761-4af3-b54e-3f76ed4466d7)
