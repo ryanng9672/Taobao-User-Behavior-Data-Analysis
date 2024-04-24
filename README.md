@@ -310,7 +310,7 @@ Comparing the two paths, it can be inferred that users who go directly to purcha
 
 
 
-# Data_analysis_Results
+# Data_analysis_Results&opinion
 ![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/213387fa-0acc-4c66-a6dc-4b92e6dc7b78)
 
 **A few things can be seen from the data provided:**
