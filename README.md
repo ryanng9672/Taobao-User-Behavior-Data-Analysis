@@ -307,6 +307,12 @@ Comparing the two paths, it can be inferred that users who go directly to purcha
 - **Are the product categories ranked consistently for views and purchases?**
 ![螢幕擷取畫面 2024-04-23 093331](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/677de169-b761-4af3-b54e-3f76ed4466d7)
 
+- **Partial Similarity: There are some categories that appear in roughly similar positions in the rankings of views and purchases (e.g., the third most viewed category is the fourth most purchased, etc.). This suggests that these categories might have relatively high attraction and conversion potential.**
+
+- **Mostly Dissimilar: The majority of the categories do not match between the views and purchases rankings, which might imply that some categories, although attracting a lot of views, do not necessarily convert into purchases; or conversely, some categories might have fewer views but higher conversion rates.**
+
+- **Item Inconsistency: The top 10 items in terms of views and purchases are completely different, further highlighting the discrepancies between viewing and purchasing behaviors. This might mean that the factors influencing users' interests during browsing and their decision-making at the time of purchase are different.**
+
 - **Repeat rate and single purchase**
 ![螢幕擷取畫面 2024-04-23 093349](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/82e1bcb6-5ac9-49da-a0fa-7e6858d7ba55)
 
@@ -395,6 +401,14 @@ Even though these conversion rates look good, there is always room for improveme
 
 - **Personalize Recommendations: For users who add items to their favorites, personalized recommendations and promotions might increase conversion rates. This can be achieved by analyzing their browsing and purchase history.**
 
+- **Are the product categories ranked consistently for views and purchases?**
+![螢幕擷取畫面 2024-04-23 093331](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/677de169-b761-4af3-b54e-3f76ed4466d7)
+- **Market Behavior Analysis: This inconsistency alerts market analysts or product managers to delve deeper into which categories or products effectively link attraction and conversion, and which ones have high traffic but low conversion rates. This can aid in optimizing product placement, promotional strategies, and inventory management.**
+
+- **Understanding User Behavior: Understanding user behaviors at different stages (like browsing and purchasing) can help businesses better tailor their marketing and product strategies to meet actual user needs.**
+
+- **Personalized Recommendations: By analyzing the differences between views and purchases data, personalized recommendation systems can be further optimized to enhance user experiences and increase sales opportunities.**
+  
 # WebsiteRelated
 - data set link 
 https://tianchi.aliyun.com/dataset/649
