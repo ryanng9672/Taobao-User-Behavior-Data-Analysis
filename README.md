@@ -457,6 +457,7 @@ Even though these conversion rates look good, there is always room for improveme
 # WebsiteRelated
 - **data set link**
 https://tianchi.aliyun.com/dataset/649
+- **Since the file exceeds the 1GB required by GITHUG, you can e-mail me if you want a csv or pbix file.**
 
 
 
