@@ -277,6 +277,21 @@ By implementing these strategies, it is possible to improve the PV to CAR&FAV co
 ![螢幕擷取畫面 2024-04-23 093217](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/1eb64e94-79d0-42ef-83fd-678a581674f2)
 
 - **Conversion Rate &Bounce Rate**
+
+- Total Page Views (Totalpv): 89,660,688
+ This metric indicates the total number of times that pages on the website have been viewed during the reported period. A high number of page views can suggest high traffic but does not necessarily indicate effective engagement or successful conversions.
+
+- Bounce Rate: 98.98%
+The bounce rate is exceptionally high, indicating that 98.98% of visits consist of a single page view, after which the visitor leaves the site without browsing further. This could suggest that the website is not engaging enough, or the landing pages are not effectively capturing the interest of the visitors. High bounce rates can also be linked to poor user experience, irrelevant content, or slow page load times.
+
+- Cart Include Buy Conversion Rate: 0.92%
+This conversion rate measures how many visitors who added items to their shopping cart proceeded to complete a purchase. A rate of 0.92% is quite low, suggesting that while some users show initial interest by adding products to their cart, very few follow through to make a purchase. This could be due to various factors such as high pricing, lack of trust, complex checkout processes, or inadequate product information.
+
+- Fav Include Buy Conversion Rate: 1.11%
+Slightly better than the cart conversion rate, this metric shows that 1.11% of users who added items to their favorites list eventually made a purchase. Although higher than the cart conversion rate, it still indicates a low overall effectiveness in converting interested users into buyers.
+- Buy Conversion Rate: 2.16%
+This rate indicates that out of all visitors to the site, 2.16% completed a purchase. Considering the high bounce rate and low engagement metrics in other areas, this conversion rate is relatively low but not uncommon for e-commerce sites, depending on the industry standard and niche market.
+
 ![螢幕擷取畫面 2024-04-23 093317](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/d3b8a496-c199-46a3-b039-eba930660b73)
 
 - **Are the product categories ranked consistently for views and purchases?**
