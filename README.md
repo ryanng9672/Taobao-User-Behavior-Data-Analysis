@@ -278,28 +278,28 @@ By implementing these strategies, it is possible to improve the PV to CAR&FAV co
 
 - **Conversion Rate &Bounce Rate**
 
-- Total Page Views (Totalpv): 89,660,688
- This metric indicates the total number of times that pages on the website have been viewed during the reported period. A high number of page views can suggest high traffic but does not necessarily indicate effective engagement or successful conversions.
+- **Total Page Views (Totalpv): 89,660,688
+ This metric indicates the total number of times that pages on the website have been viewed during the reported period. A high number of page views can suggest high traffic but does not necessarily indicate effective engagement or successful conversions.**
 
-- Bounce Rate: 98.98%
-The bounce rate is exceptionally high, indicating that 98.98% of visits consist of a single page view, after which the visitor leaves the site without browsing further. This could suggest that the website is not engaging enough, or the landing pages are not effectively capturing the interest of the visitors. High bounce rates can also be linked to poor user experience, irrelevant content, or slow page load times.
+- **Bounce Rate: 98.98%
+The bounce rate is exceptionally high, indicating that 98.98% of visits consist of a single page view, after which the visitor leaves the site without browsing further. This could suggest that the website is not engaging enough, or the landing pages are not effectively capturing the interest of the visitors. High bounce rates can also be linked to poor user experience, irrelevant content, or slow page load times.**
 
-- Cart Include Buy Conversion Rate: 0.92%
-This conversion rate measures how many visitors who added items to their shopping cart proceeded to complete a purchase. A rate of 0.92% is quite low, suggesting that while some users show initial interest by adding products to their cart, very few follow through to make a purchase. This could be due to various factors such as high pricing, lack of trust, complex checkout processes, or inadequate product information.
+- **Cart Include Buy Conversion Rate: 0.92%
+This conversion rate measures how many visitors who added items to their shopping cart proceeded to complete a purchase. A rate of 0.92% is quite low, suggesting that while some users show initial interest by adding products to their cart, very few follow through to make a purchase. This could be due to various factors such as high pricing, lack of trust, complex checkout processes, or inadequate product information.**
 
-- Fav Include Buy Conversion Rate: 1.11%
-Slightly better than the cart conversion rate, this metric shows that 1.11% of users who added items to their favorites list eventually made a purchase. Although higher than the cart conversion rate, it still indicates a low overall effectiveness in converting interested users into buyers.
-- Buy Conversion Rate: 2.16%
-This rate indicates that out of all visitors to the site, 2.16% completed a purchase. Considering the high bounce rate and low engagement metrics in other areas, this conversion rate is relatively low but not uncommon for e-commerce sites, depending on the industry standard and niche market.
+- **Fav Include Buy Conversion Rate: 1.11%
+Slightly better than the cart conversion rate, this metric shows that 1.11% of users who added items to their favorites list eventually made a purchase. Although higher than the cart conversion rate, it still indicates a low overall effectiveness in converting interested users into buyers.**
+- **Buy Conversion Rate: 2.16%
+This rate indicates that out of all visitors to the site, 2.16% completed a purchase. Considering the high bounce rate and low engagement metrics in other areas, this conversion rate is relatively low but not uncommon for e-commerce sites, depending on the industry standard and niche market.**
 
-- Direct Purchase Path Predominates:
-The "PV > CART > BUY" pathway represents a user journey from Page View (PV), to adding items to the Cart (CART), and then going straight to Purchase (BUY). This being the most common path suggests that many users quickly decide to buy after viewing the product. This indicates that the website effectively showcases its products and that the checkout process is likely streamlined, minimizing distractions or reasons for users to abandon their carts.
+- **Direct Purchase Path Predominates:
+The "PV > CART > BUY" pathway represents a user journey from Page View (PV), to adding items to the Cart (CART), and then going straight to Purchase (BUY). This being the most common path suggests that many users quickly decide to buy after viewing the product. This indicates that the website effectively showcases its products and that the checkout process is likely streamlined, minimizing distractions or reasons for users to abandon their carts.**
 
-- Favorites as an Intermediate Step:
-The second most common path, "PV > CART > FAV > BUY," involves users adding products to their cart, then adding them to their favorites (FAV), and eventually making a purchase. This indicates that a segment of the customer base prefers to take more time making their buying decisions, possibly using the favorites function to compare different options or to reconsider before finalizing the purchase.
+- **Favorites as an Intermediate Step:
+The second most common path, "PV > CART > FAV > BUY," involves users adding products to their cart, then adding them to their favorites (FAV), and eventually making a purchase. This indicates that a segment of the customer base prefers to take more time making their buying decisions, possibly using the favorites function to compare different options or to reconsider before finalizing the purchase.**
 
-- Decision Time and User Confidence:
-Comparing the two paths, it can be inferred that users who go directly to purchase are likely more confident about their buying decision or feel a sense of urgency. In contrast, those who use the favorites feature may require more information or exhibit more hesitation before committing to the purchase. This could also reflect a preference among certain users to save items for later consideration.
+- **Decision Time and User Confidence:
+Comparing the two paths, it can be inferred that users who go directly to purchase are likely more confident about their buying decision or feel a sense of urgency. In contrast, those who use the favorites feature may require more information or exhibit more hesitation before committing to the purchase. This could also reflect a preference among certain users to save items for later consideration.**
 ![螢幕擷取畫面 2024-04-23 093317](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/d3b8a496-c199-46a3-b039-eba930660b73)
 
 - **Are the product categories ranked consistently for views and purchases?**
