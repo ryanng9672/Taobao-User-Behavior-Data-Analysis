@@ -310,50 +310,50 @@ Comparing the two paths, it can be inferred that users who go directly to purcha
 
 
 
-# Data_analysis_Results&opinion
+# Data_analysis_Results&Opinion
 ![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/213387fa-0acc-4c66-a6dc-4b92e6dc7b78)
 
 **A few things can be seen from the data provided:**
-- Date range: from 11/25/2017 to 12/3/2017.
-- Number of page views (pv): during this period, the number of daily page views ranged from approximately 8.84 million to approximately 12.3 million.
-- Unique visitors (uv): the number of daily unique visitors increased from approximately 686,000 to approximately 939,000 per day.
-- Average page views per unique visitor (puv): this figure was relatively stable, fluctuating between 13.1 and 13.7.
+- **Date range: from 11/25/2017 to 12/3/2017.**
+- **Number of page views (pv): during this period, the number of daily page views ranged from approximately 8.84 million to approximately 12.3 million.**
+- **Unique visitors (uv): the number of daily unique visitors increased from approximately 686,000 to approximately 939,000 per day.**
+- **Average page views per unique visitor (puv): this figure was relatively stable, fluctuating between 13.1 and 13.7.**
 
 **See data analysis:**
-- User Engagement: The value of puv shows the average number of pages viewed by users during each visit. A number around 13 indicates that users tend to browse multiple pages when visiting Taobao, which - may reflect the attractiveness of the site and user engagement.
-- User Growth: An increase in the number of unique visitors within a given date range, which may be due to specific marketing campaigns, the holiday shopping season or natural growth.
-- Traffic Fluctuations: Especially during the first weekend of December (December 2 and 3), pv and uv values increased significantly, which could be due to increased traffic from weekend events or promotions and possibly an early warm-up for the Double-December event.
+- **User Engagement: The value of puv shows the average number of pages viewed by users during each visit. A number around 13 indicates that users tend to browse multiple pages when visiting Taobao, which - may reflect the attractiveness of the site and user engagement.**
+- **User Growth: An increase in the number of unique visitors within a given date range, which may be due to specific marketing campaigns, the holiday shopping season or natural growth.**
+- **Traffic Fluctuations: Especially during the first weekend of December (December 2 and 3), pv and uv values increased significantly, which could be due to increased traffic from weekend events or promotions and possibly an early warm-up for the Double-December event.**
 
 ![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/518073d8-a92d-4964-9811-f2516ca18328)
 
 **The resulting dataframe retention_rate displays daily retention rates:**
-- Dates: Specific days in late November and early December 2017.
-- retention_1: The ratio of users who returned the following day to those who visited on the same day. Values close to 1 suggest a higher retention rate.
+- **Dates: Specific days in late November and early December 2017.**
+- **retention_1: The ratio of users who returned the following day to those who visited on the same day. Values close to 1 suggest a higher retention rate.**
 
 **From the results:**
 
-- On most days, the retention rates are between 0.777 and 0.796, suggesting that about 77.7% to 79.6% of users who visited the site returned the next day.
-- There is a notable increase on December 1st and 2nd, where the retention rates are much higher (~0.98), possibly indicating a successful marketing campaign or event that drove higher user engagement and return.
-- The NaN value on December 3rd means there were no same-day visits recorded to compare against, or no data for the following day to establish if users returned.
+- **On most days, the retention rates are between 0.777 and 0.796, suggesting that about 77.7% to 79.6% of users who visited the site returned the next day.**
+- **There is a notable increase on December 1st and 2nd, where the retention rates are much higher (~0.98), possibly indicating a successful marketing campaign or event that drove higher user engagement and return.**
+- **The NaN value on December 3rd means there were no same-day visits recorded to compare against, or no data for the following day to establish if users returned.**
 
 ![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/afb08ce6-2b47-4538-8044-f6a230993e3d)
 
 **Results Explanation**
-Bounce Users: 88
-This indicates that there are 88 users in the dataset who visited the website only once.
+**Bounce Users: 88
+This indicates that there are 88 users in the dataset who visited the website only once.**
 
-Total PV (Total Page Views): 89,660,688
-It shows that the dataset records a total of 89,660,688 page views.
+**Total PV (Total Page Views): 89,660,688
+It shows that the dataset records a total of 89,660,688 page views.**
 
-Bounce Rate: 9.81478081006918e-07
-The bounce rate is extremely low, nearly zero. This rate indicates that a tiny proportion of all page views were generated by users who visited the website only once.
+**Bounce Rate: 9.81478081006918e-07
+The bounce rate is extremely low, nearly zero. This rate indicates that a tiny proportion of all page views were generated by users who visited the website only once.**
 
 **Summary**
-although there are 88 users who only visited once, this number is very small compared to the total page views, resulting in an extremely low bounce rate (approximately 0.000000981%). This suggests that the vast majority of page views come from users who visit the website repeatedly, indicating good user retention and engagement. This can be seen as a positive sign of user involvement and return visits to the website or application.
+**although there are 88 users who only visited once, this number is very small compared to the total page views, resulting in an extremely low bounce rate (approximately 0.000000981%). This suggests that the vast majority of page views come from users who visit the website repeatedly, indicating good user retention and engagement. This can be seen as a positive sign of user involvement and return visits to the website or application.**
 
 ![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/2c8a9892-bf41-4726-b395-71643b30c11c)
 
-- The results show the number of users in each category, with Bronze having the most and Gold the least. This classification indicates varying levels of customer loyalty and engagement, with Diamond Members likely being the most valuable customer group due to their active purchase behaviors.
+- **The results show the number of users in each category, with Bronze having the most and Gold the least. This classification indicates varying levels of customer loyalty and engagement, with Diamond Members likely being the most valuable customer group due to their active purchase behaviors.**
 
 - **Conversion Rates Analysis**
 ![image](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/46990317-b361-427a-b7c4-97d436f43316)
