@@ -315,7 +315,7 @@ Comparing the two paths, it can be inferred that users who go directly to purcha
 
 - **Repeat rate and single purchase**
 ![螢幕擷取畫面 2024-04-23 093349](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/82e1bcb6-5ac9-49da-a0fa-7e6858d7ba55)
-
+- **With the title "Repeat Rate and Single Purchase," the data reveals that in single transactions, purchases involving 1 to 4 products account for over 65% of cases, with single-product purchases being the most common. Additionally, the repurchase rate is highest for just one purchase, followed by two and three purchases.**
 
 
 # Data_analysis_Results&Opinion
@@ -408,7 +408,14 @@ Even though these conversion rates look good, there is always room for improveme
 - **Understanding User Behavior: Understanding user behaviors at different stages (like browsing and purchasing) can help businesses better tailor their marketing and product strategies to meet actual user needs.**
 
 - **Personalized Recommendations: By analyzing the differences between views and purchases data, personalized recommendation systems can be further optimized to enhance user experiences and increase sales opportunities.**
+
+- **Repeat rate and single purchase**
+![螢幕擷取畫面 2024-04-23 093349](https://github.com/ryanng9672/Taobao-User-Behavior-Data-Analysis/assets/158177590/82e1bcb6-5ac9-49da-a0fa-7e6858d7ba55)
+- **Customers tend to buy a small number of items per transaction: The majority of customers choose only a few items during a single purchase, which might relate to consumer buying habits or the nature of the products (such as daily necessities or FMCG).**
+
+- **Low repeat purchase rate: Customers tend to make only one purchase, with a lower rate of repurchase. This might indicate low customer loyalty or the availability of many alternative products in the market.**
   
+- **Adjustment in marketing strategies: Businesses might need to increase repeat purchase rates through improving product quality, enhancing customer loyalty programs, upgrading service quality, or innovating marketing strategies.**
 # WebsiteRelated
 - data set link 
 https://tianchi.aliyun.com/dataset/649
