@@ -8,6 +8,7 @@
 * [RFＭ](#RFＭ)
 * [Power_bi](#Power_bi).There will be diagrams to explain
 * [Data_Analysis_Results](#Data_Analysis_Results).For those who prefer to see the analysis outcomes without delving into the coding details, please click here
+* [Recommendation](#Recommendation)
 * [WebsiteRelated](#WebsiteRelated)
 
 # Project_Introduction
@@ -416,6 +417,10 @@ Even though these conversion rates look good, there is always room for improveme
 - **Low repeat purchase rate: Customers tend to make only one purchase, with a lower rate of repurchase. This might indicate low customer loyalty or the availability of many alternative products in the market.**
   
 - **Adjustment in marketing strategies: Businesses might need to increase repeat purchase rates through improving product quality, enhancing customer loyalty programs, upgrading service quality, or innovating marketing strategies.**
+
+# Recommendation
+
+
 # WebsiteRelated
 - data set link 
 https://tianchi.aliyun.com/dataset/649
